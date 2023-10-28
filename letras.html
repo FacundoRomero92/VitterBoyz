@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Vitter band</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <style>
+        header>a{
+            display: block;
+            text-decoration: none;
+            animation: header 1s infinite;
+            animation-timing-function: linear;
+            animation-direction: alternate;
+        }
+        .header {
+            justify-content: center;
+            height: 4vh;
+            padding: 10px 16px;
+            background: black;
+            color: #f1f1f1;
+            font-size: xx-large;
+            position: fixed;
+            text-align: center;
+            width: 100%;
+            opacity: .8;
+            top: 0;
+        }
+        h1{
+            user-select: none;
+            margin-top: 4rem;
+            margin-bottom: 1rem;
+        }
+        #letrasveil{
+            min-height: auto;
+            justify-content: flex-start;
+        }
+        #letrasveil::-webkit-scrollbar {
+            width: 0px;
+        }
+    </style>
+    <body>
+        <div class="veil">
+            <header class="header"><a href="index.html" style="font-family: danger;">V I T T E R</a></header>
+            <h1 class="titulo">L E T R A S</h1>
+            <div class="letrasContainer">
+                <div id="uno" class="letras fade" style="display: block;">
+                    <div id="letrasveil" class="veil">
+                    <h1 style="font-family: danger;">Holy Wars...The Punishment Due</h1>
+                    <pre>
+Brother will kill brother
+Spilling blood across the land
+Killing for religion
+Something I don't understand
+
+Fools like me, who cross the sea
+And come to foreign lands
+Ask the sheep, for their beliefs
+Do you kill on God's command?
+
+A country that's divided
+Surely will not stand
+My past erased, no more disgrace
+No foolish naive stand
+
+The end is near, it's crystal clear
+Part of the master plan
+Don't look now to Israel
+It might be your homelands
+
+Holy wars
+
+Upon my podium, as the
+Know it all scholar
+Down in my seat of judgement
+Gavel's bang, uphold the law
+Up on my soapbox, a leader
+Out to change the world
+Down in my pulpit as the holier
+Than-thou-could-be-messenger of God
+
+Wage the war on organized crime
+Sneak attacks, repel down the rocks
+Behind the lines
+Some people risk to employ me
+Some people live to destroy me
+Either way they die.
+
+They killed my wife, and my baby
+With hopes to enslave me
+First mistake...last mistake!
+Paid by the alliance, to slay all the giants
+Next mistake...no more mistakes!
+
+Fill the cracks in, with judicial granite
+Because I don't say it, don't mean I ain't thinking it
+Next thing you know, they'll take my thoughts away
+I know what I said, now I must scream of the overdose
+And the lack of mercy killings.
+Next thing you know, they will take my thoughts away.
+                    </pre>
+                    </div>
+                </div>
+                <div id="dos" class="letras fade" style="display: none;">
+                    <div id="letrasveil" class="veil">
+                        <h1 style="font-family: danger;">Hangar eighteen</h1>
+                        <pre>
+    Welcome to our fortress tall
+    Take some time to show you around
+    Impossible to break these walls
+    For you see the steel is much too strong
+    Computer banks to rule the world
+    Instruments to sight the stars
+
+    Possibly I've seen too much
+    Hangar 18 I know too much.
+
+    Foreign life forms inventory
+    Suspended State of cryogenics
+    Selective amnesia's the story
+    Believed foretold but who'd suspect
+    The military intelligence
+    Two words combined that can't make sense
+
+    Possibly I've seen too much
+    Hangar 18 I know too much.
+                        </pre>
+                    </div>
+                </div>
+                <div id="tres" class="letras fade" style="display: none;">
+                    <div id="letrasveil" class="veil">
+                        <h1 style="font-family: danger;">Take No Prisoners</h1>
+                        <pre>
+    Got on chance, infiltrate them
+    Get it right, terminate them
+    The Panzers will, permeate them
+    Break their pride, denigrate them
+    And their people, retrograde them
+    Typhus, deteriate them
+    Epidemic, devastate them
+    Take no prisoners, cremate them
+
+    Going to war, give 'em hell
+    D-Day, next stop Normandie
+    Beginning of the end
+    WE know how to and sure as shit we'll win
+    War is peace sure man
+    A retreat for the damned
+    A playground for the demented
+    A haven for those who walk this world
+    Bereft of heart and soul
+    Love and war they say all is fair
+    Take his life
+    But won't take his hair
+    Your body has parts your
+    Country can spare
+    By the way son here's
+    Your wheelchair
+
+    He once had to be all he could be
+    Now he's nothing for no one nowhere to see
+    Funny thing, he's like you & me
+    It's a funny thing, a funny thing
+    Tears streak his solemn stare
+    Abandoned for wreckage nobody cares
+    No one knew what would happen there
+    No one spoke no one even dared
+    Don't ask what you can do for you country
+    Ask what your country can do for you
+    Take no prisoners, take no shit
+                        </pre>
+                    </div>
+                </div>
+                <a class="prev" onclick="siguienteletra(-1)">❮</a>
+                <a class="next" onclick="siguienteletra(1)">❯</a>
+            </div>
+            <div style="text-align:center; margin: 1%;">
+                <span class="dots" onclick="currentletra(1)"></span> 
+                <span class="dots" onclick="currentletra(2)"></span> 
+                <span class="dots" onclick="currentletra(3)"></span> 
+            </div>
+            <footer>© 2023 Vitter band. Todos los Derechos Reservados</footer>
+        </div>
+        <script src="js\js.js" async defer></script>
+    </body>
+</html>
