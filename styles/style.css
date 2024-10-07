@@ -195,7 +195,7 @@ footer{
 width: 0px;
 }
 #melo{
-    background-image: url(Melo.png);
+    background-image: url(melo.png);
 }
 #mateo{
     background-image: url(mateo.png);
@@ -204,7 +204,7 @@ width: 0px;
     background-image: url(willy.png);
 }
 #aaron{
-    background-image: url(Aaron.png);
+    background-image: url(aaron.png);
 }
 /* Seccion de letras */
 .letrasContainer{
@@ -269,7 +269,7 @@ width: 0px;
 }
 #uno{
     background-color: black;
-    background-image: url(C:/Users/cwboy/Desktop/cursito/VitterBoyz/Letras/holyWars.jpg);
+    background-image: url(C:/Users/cwboy/Desktop/cursito/VitterBoyz/Letras/holywars.jpg);
 }
 #dos{
     background-color: black;
@@ -277,7 +277,7 @@ width: 0px;
 }
 #tres{
     background-color: black;
-    background-image: url(C:/Users/cwboy/Desktop/cursito/VitterBoyz/Letras/takeNoPrisioners.jpg);
+    background-image: url(C:/Users/cwboy/Desktop/cursito/VitterBoyz/Letras/takenoprisioners.jpg);
 }
 .letras::-webkit-scrollbar {
 width: 5px;
